@@ -13,6 +13,7 @@ public class Puppy {
 	
 	public static void main (String[] args) {
 		// Following statement would create an object myPuppy
+		// And it will print out the Passed name is even if it is just instantiated
 		Puppy myPuppy = new Puppy("tommy");
 	}
 }
