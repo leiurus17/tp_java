@@ -11,4 +11,8 @@ public class Test {
 	public void changeValue() {
 		 // value = 12;
 	}
+	
+	public final void changeName() {
+		// body of method
+	}
 }
