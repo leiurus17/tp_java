@@ -1,6 +1,6 @@
 package com.tp.accessmodifiers;
 
-public class Test {
+public final class Test {
 
 	final int value = 10;
 	
