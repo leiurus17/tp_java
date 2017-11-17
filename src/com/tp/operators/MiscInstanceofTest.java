@@ -1,6 +1,6 @@
 package com.tp.operators;
 
-public class MiscInstanceOfTest {
+public class MiscInstanceofTest {
 
 	public static void main(String[] args) {
 		
