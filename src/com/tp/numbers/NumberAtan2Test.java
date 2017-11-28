@@ -7,5 +7,5 @@ public class NumberAtan2Test {
 		double y = 30.0;
 		
 		System.out.println(Math.atan2(x, y));
-		}
+	}
 }
