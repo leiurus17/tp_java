@@ -7,6 +7,12 @@ public class StringDemo {
 		
 		String helloString = new String(helloArray);
 		System.out.println(helloString);
+		
+		// String length
+		String palindrome = "Dot saw I was Tod";
+		int len = palindrome.length();
+		
+		System.out.println("String Length is: " + len);
 	}
 }
 	
