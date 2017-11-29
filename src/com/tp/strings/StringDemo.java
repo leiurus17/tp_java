@@ -13,6 +13,13 @@ public class StringDemo {
 		int len = palindrome.length();
 		
 		System.out.println("String Length is: " + len);
+		
+		// Concatenating Strings
+		String string1 = "saw I was";
+		System.out.println("Dot " + string1 + "Tod");
+		String string2 = "Geh";
+		String string3 = " talon!";
+		System.out.println(string2.concat(string3));
 	}
 }
 	
