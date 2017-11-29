@@ -20,6 +20,25 @@ public class StringDemo {
 		String string2 = "Geh";
 		String string3 = " talon!";
 		System.out.println(string2.concat(string3));
+		
+		float floatVar = 12.34f;
+		int intVar = 22;
+		String stringVar = "Naruto";
+		
+		// Format Strings
+		System.out.printf("The value of the float variable is " +
+						  "%f, while the value of the integer " +
+						  "variable is %d, and the string " +
+						  "is %s", floatVar, intVar, stringVar);
+		
+		System.out.println();
+		
+		String fs;
+		fs = String.format("The value of the float variable is " +
+						  "%f, while the value of the integer " +
+						  "variable is %d, and the string " +
+						  "is %s", floatVar, intVar, stringVar);
+		System.out.println(fs);
 	}
 }
 	
