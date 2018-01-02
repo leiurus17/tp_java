@@ -13,6 +13,10 @@ public class SendEmail {
 		String from = "web@gmail.com";
 		String host = "localhost";
 		Properties properties = System.getProperties();
+		
+		// properties.setProperty("mail.user", "myuser");
+		// properties.setProperty("mail.password", "mypwd");
+		
 		properties.setProperty("mail.smtp.host", host);
 		
 		Session session = Session.getDefaultInstance(properties);
