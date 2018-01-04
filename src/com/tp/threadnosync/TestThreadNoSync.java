@@ -1,4 +1,4 @@
-package com.tp.threadsync;
+package com.tp.threadnosync;
 
 class PrintDemo {
 	public void printCount() {
